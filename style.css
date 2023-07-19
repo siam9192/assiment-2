@@ -54,7 +54,7 @@ header nav ul li a{
 }
 header nav ul li:nth-child(3){
     background-color:  rgba(11, 2, 35, 0.10);
-    padding: 5px 0px;
+    padding: 10px 0px;
     border-radius: 8px;
 }
 header nav ul li:nth-child(3) img{
@@ -246,6 +246,9 @@ background-clip: text;
     background-size: cover;
     
 }
+.video-card:hover{
+    border: solid 3px #F948B2;
+}
 
 .video-card-2{
 
@@ -342,7 +345,7 @@ background-clip: text;
     width: 300px;
     padding: 1px;
     background-color: white;
-    border: solid 2px #F948B2;
+  
     border-radius: 10px;
     left: -100px;
     bottom: -70px;
@@ -500,7 +503,7 @@ header nav ul li:nth-child(3) img:nth-child(1){
  align-items: start;
 }
 .banner-text-content{
-    padding: 131px 40px;
+    padding: 131px 20px;
     width: 90%;
 }
 .banner-title{
@@ -516,16 +519,18 @@ header nav ul li:nth-child(3) img:nth-child(1){
     margin-left: 10px;
 }
 .banner-image{
-    padding: 30px;
+    padding: 0px;
     width: 100%;
+    display: flex
+    ;
+    justify-content: center;
 }
 .banner-image img{
     width: 80%;
+    margin-left: 20px;
 }
 /* main section */
-main{
-   
-}
+
 /* we are gamer section */
 .we-are-gamer{
     padding: 10px 20px;
@@ -661,9 +666,9 @@ text-align: center;
         width: 100%;
     }
     header nav{
-        width: 100%;
+      
         flex-direction: column;
-        padding: 0;
+       
     }
 header nav ul{
     flex-direction: column;
@@ -688,17 +693,18 @@ header nav ul li:nth-child(3) img:nth-child(1){
         padding: 140px 100px;
     }
     .banner-image{
-        width: 100%;
+        width: 90%;
         padding-right: 0;
-        padding: 20px 100px;
+        display: flex;
+        justify-content: center;
+       padding-left: 140px 100px;
     }
     .banner-image img{
         width: 80%;
-    }
-    /* main section */
-    main{
         
     }
+    
+   
     /* we are gamer section */
     .we-are-gamer{
         flex-direction: column;
@@ -752,7 +758,7 @@ header nav ul li:nth-child(3) img:nth-child(1){
     }
     /*footer */
     footer{
-        padding: 60px 80px;
+        padding: 60px 70px;
     }
     .footer-link-1{
         display: grid;
