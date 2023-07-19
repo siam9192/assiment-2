@@ -337,17 +337,20 @@ background-clip: text;
     width: 100%;
 }
 .play-game-img-sub{
+
   position: absolute;
     width: 300px;
     padding: 1px;
     background-color: white;
-    border: solid 3px #F948B2;
+    border: solid 2px #F948B2;
     border-radius: 10px;
     left: -100px;
     bottom: -70px;
+    
 }
 .play-game-img-sub img{
     width: 100%;
+    
 }
 .game-list-container{
   
@@ -470,14 +473,25 @@ header nav ul li a{
     text-align: center;
 }
 header nav ul li:nth-child(3){
-    padding: 10px 10px;
+    padding: 10px 5px;
     border-radius: 5px;
 }
-header nav ul li:nth-child(3) a img{
+header nav ul li:nth-child(3) a {
 margin-left: 0;
-width: 15px;
+
+align-items: center;
 
 }
+header nav ul li:nth-child(3) img:nth-child(1){
+    height: 20px;
+    width: 28px;
+    margin-left: 5px;
+  }
+  header nav ul li:nth-child(3) img:nth-child(2){
+    height: 25px;
+    width: 28px;
+    margin-left: 5px;
+  }
 /* banner section */
 
 .banner{
@@ -487,7 +501,7 @@ width: 15px;
 }
 .banner-text-content{
     padding: 131px 40px;
-    width: 100%;
+    width: 90%;
 }
 .banner-title{
     font-size: 30px;
@@ -517,6 +531,7 @@ main{
     padding: 10px 20px;
     flex-direction: column;
     gap: 20px;
+    
 }
 .we-are-gamer-img{
     width: 100%;
@@ -530,6 +545,16 @@ main{
 .we-are-gamer .extra-des{
     font-size: 17px;
     text-align: center;
+}
+.we-are-gamer-des{
+    
+    width: 100%;
+    text-align: center;
+}
+.we-are-gamer-btn-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }
 /* online game video section */
 .online-game-video{
@@ -557,12 +582,17 @@ main{
     width: 100%;
 }
 .play-game-img img {
-   
+   width: 100%;
+}
+.play-game-img  {
+    display: flex;
+    justify-content: center;
 }
 .playgame-title{
-    font-size: 30px;
+    font-size: 40px;
 }
 .play-game-img-sub{
+    
     width: 50%;
     left: -20px;
     bottom: -50px;
@@ -639,6 +669,16 @@ header nav ul{
     flex-direction: column;
     gap: 20px;
 }
+header nav ul li:nth-child(3) img:nth-child(1){
+    height: 20px;
+    width: 28px;
+    margin-left: 5px;
+  }
+  header nav ul li:nth-child(3) img:nth-child(2){
+    height: 25px;
+    width: 28px;
+    margin-left: 5px;
+  }
     /* banner */
     .banner{
         flex-direction: column;
@@ -666,6 +706,8 @@ header nav ul{
     }
     .we-are-gamer-img{
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .we-are-gamer-text{
         width: 100%;
@@ -676,9 +718,10 @@ header nav ul{
     }
     .online-game-video-container{
        display: grid;
-       grid-template-columns: repeat(2,1fr);
+       grid-template-columns: repeat(2,250px);
        justify-content: center;
        align-items: center;
+    gap: 20px;
     }
     /* play game section */
     .play-game{
