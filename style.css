@@ -9,7 +9,7 @@ body{
 
 /* header section start */
 header nav{
-    padding: 0px 120px;
+    padding: 20px 120px;
   background-color: white;
     display: flex;
   
@@ -48,13 +48,13 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     color: #3C354F;
-    padding: 40px 30px;
+    padding: 20px 30px;
     font-size: 18px;
   
 }
-header nav ul li:nth-child(3){
+header nav ul li:nth-child(3) a{
     background-color:  rgba(11, 2, 35, 0.10);
-    padding: 10px 0px;
+    
     border-radius: 8px;
 }
 header nav ul li:nth-child(3) img{
@@ -147,13 +147,11 @@ margin-left: 24px;
    width: 50%;
 }
 .banner-image img{
+   
 width: 100%;
 }
 /* main section start */
-main{
-  
-   
-}
+
 /* we are gamer section */
 .we-are-gamer{
     padding: 20px 240px;
@@ -697,7 +695,7 @@ header nav ul li:nth-child(3) img:nth-child(1){
         padding-right: 0;
         display: flex;
         justify-content: center;
-       padding-left: 140px 100px;
+       padding-bottom: 40px;
     }
     .banner-image img{
         width: 80%;
