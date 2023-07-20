@@ -609,6 +609,7 @@ header nav ul li:nth-child(3) img:nth-child(1){
 .play-game-des{
     width: 100%;
     font-family: 16px;
+  
 }
 /* game list section */
 .game-list{
@@ -660,8 +661,10 @@ footer{
 font-size: 10px;}
    
     .terms{
-margin-top: 90px;
+margin-top: 70px;
 text-align: center;
+width: 70%;
+font-size: 12px;
     
 }
 }
