@@ -9,7 +9,7 @@ body{
 
 /* header section start */
 header nav{
-    padding: 20px 120px;
+    padding: 0px 120px;
   background-color: white;
     display: flex;
   
@@ -24,7 +24,8 @@ header nav .logo{
 }
 header nav .logo img{
 width: 86.041px;
-   height: 40px;;
+   height: 40px;
+
 }
  .logo-name {
     color: #0B0223;
@@ -60,7 +61,7 @@ header nav ul li:nth-child(3) a{
 header nav ul li:nth-child(3) img{
  width: 20px;
    margin-left: 20px;
-   
+  
 }
 header nav ul li:nth-child(3) img:nth-child(1){
   height: 20px;
@@ -120,6 +121,9 @@ align-items: center;
     margin-right: 10px;
     color: #F948B2;
     font-size: 20px;
+}
+.banner-description p:nth-child(3) i{
+    color: black;
 }
 .banner-btn a{
     padding: 21px 40px;
@@ -503,6 +507,7 @@ header nav ul li:nth-child(3) img:nth-child(1){
 .banner-text-content{
     padding: 131px 20px;
     width: 90%;
+    
 }
 .banner-title{
     font-size: 30px;
@@ -540,7 +545,7 @@ header nav ul li:nth-child(3) img:nth-child(1){
     width: 100%;
 }
 .we-are-gamer img{
-    width: 80%;
+    width: 100%;
 }
 .we-are-gamer-text{
     width: 100%;
@@ -580,6 +585,7 @@ header nav ul li:nth-child(3) img:nth-child(1){
 .play-game{
     padding: 20px 20px;
     flex-direction: column;
+    width: 90%;
 }
 .play-game-text-content{
     width: 100%;
@@ -610,7 +616,8 @@ header nav ul li:nth-child(3) img:nth-child(1){
    display: grid;
    grid-template-columns: repeat(3,20%);
    gap: 40px;
-   
+  
+  
 }
 .game-list-card{
     width: 90px;
@@ -620,6 +627,7 @@ header nav ul li:nth-child(3) img:nth-child(1){
     width: 20px;
     margin-left: 3px;
 }
+
 .gamelist-des{
     font-size: 6px;
 }
@@ -664,9 +672,9 @@ text-align: center;
         width: 100%;
     }
     header nav{
-      
+      padding-bottom: 15px;
         flex-direction: column;
-       
+       justify-content: center;
     }
 header nav ul{
     flex-direction: column;
@@ -724,7 +732,7 @@ header nav ul li:nth-child(3) img:nth-child(1){
        display: grid;
        grid-template-columns: repeat(2,250px);
        justify-content: center;
-       align-items: center;
+      
     gap: 20px;
     }
     /* play game section */
@@ -777,3 +785,4 @@ margin-top: 90px;
         
     }
 }
+
